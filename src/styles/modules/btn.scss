@@ -1,0 +1,24 @@
+.btn {
+  width: 85px;
+  height: 30px;
+  line-height: 1;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  &-primary {
+    background-color: $color-secondary !important;
+    color: #fff !important;
+  }
+
+  &-md {
+    width: 222px;
+    height: 54px;
+    line-height: 2.5;
+    font-weight: 500;
+  }
+
+  &-blue {
+    background-color: $color-blue;
+    color: #fff !important;
+  }
+}
