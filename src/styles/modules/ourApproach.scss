@@ -1,13 +1,16 @@
 .ourApproach {
   position: relative;
+  padding: 8rem 0 15rem 0;
+  background: rgba(255, 255, 255, 0.5);
   &__list {
     list-style: none;
 
     li {
-      width: 100%;
+      width: 50%;
       height: 207px;
-      margin-top: 15rem;
+      margin-top: 11rem;
       img {
+        position: absolute;
         width: 221.17px;
         height: 199.79px;
       }
@@ -15,8 +18,8 @@
 
     &__content {
       position: relative;
-      top: 8rem;
-      width: 370px;
+      top: 10rem;
+      width: 470px;
       height: 115px;
       display: inline-block;
       color: #212121;
@@ -34,7 +37,7 @@
         color: #111111;
         font-family: "OpenSans-ExtraBold";
         font-size: 240px;
-        font-weight: 400;
+        font-weight: 800;
         line-height: 24px;
         text-align: right;
         opacity: 0.1;
@@ -44,11 +47,11 @@
         position: absolute;
         top: -3rem;
         right: 3rem;
-        width: 8rem;
+        width: 14rem;
         color: #212121;
-        font-family: "OpenSans-Light";
-        font-size: 14px;
-        font-weight: 400;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
         line-height: 24px;
         text-align: right;
 
@@ -56,6 +59,39 @@
           right: 0rem;
         }
       }
+    }
+  }
+
+  &__icon {
+    position: absolute;
+
+    &-1 {
+      top: -1.8rem;
+      left: 2rem;
+    }
+
+    &-2 {
+      right: 8rem;
+      top: 20rem;
+    }
+
+    &-3 {
+      top: 45rem;
+      left: 15rem;
+    }
+
+    &-4 {
+      bottom: 20rem;
+      right: 25rem;
+    }
+
+    &-5 {
+      bottom: 7rem;
+      left: 10rem;
+    }
+    &-6 {
+      bottom: 0rem;
+      right: 2rem;
     }
   }
 }

@@ -1,0 +1,32 @@
+.sectionStart {
+  background-color: $color-secondary;
+  color: #fff;
+  text-align: left;
+
+  &__title {
+    font-family: "Montserrat-SemiBold";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -1.44px;
+  }
+  &__subtitle {
+    width: 555px;
+    height: 48px;
+    color: #ffffff;
+    font-family: "OpenSans-Light";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  &__section {
+    padding-top: 2rem;
+    p {
+      font-family: "OpenSans-Light";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+}

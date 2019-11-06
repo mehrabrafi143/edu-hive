@@ -1,0 +1,20 @@
+.sectionTecher {
+  background-color: $color-lite;
+
+  &__btnGroup {
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+  }
+
+  &__icons {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 7rem;
+    li {
+      display: inline-block;
+      margin-left: 3rem;
+    }
+  }
+}
